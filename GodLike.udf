@@ -15,7 +15,7 @@
         <iOS_Target Value="GodLike iOS" />
         <iOS_BundleID Value="iOS Development: Peng Wang (DK38FFHN5C)" />
         <Platform Value="Android" />
-        <PublishSetting Value="XCode" />
+        <PublishSetting Value="Resource" />
         <FrameworkVersion Value="cocos2d-x-3.4" />
         <IsDebugKeystore Value="True" />
       </Value>

@@ -32,8 +32,10 @@ bool HelloWorld::init()
     }
     
     auto rootNode = CSLoader::createNode("MainScene.csb");
-
-    addChild(rootNode);
+	auto tl = CSLoader::createTimeline("MainScene.csb");
+	tl->gotoFrameAndPlay(0, true);
+	rootNode->runAction(tl);
+	addChild(rootNode, 0, "background");
 
     return true;
 }

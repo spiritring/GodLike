@@ -4,7 +4,19 @@
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
         <Project Name="MainScene.csd" Type="Scene" />
-        <Image Name="HelloWorld.png" />
+        <PlistImageFolder PListFile="Plist.plist" Name=".Plist_PList.Dir">
+          <PlistImageFile Name="walkr-loading-a02x.png" Key="walkr-loading-a02x.png" />
+          <PlistImageFile Name="walkr-loading-a12x.png" Key="walkr-loading-a12x.png" />
+          <PlistImageFile Name="walkr-loading-a22x.png" Key="walkr-loading-a22x.png" />
+          <PlistImageFile Name="walkr-loading-a32x.png" Key="walkr-loading-a32x.png" />
+          <PlistImageFile Name="walkr-loading-a42x.png" Key="walkr-loading-a42x.png" />
+          <PlistImageFile Name="walkr-loading-a52x.png" Key="walkr-loading-a52x.png" />
+          <PlistImageFile Name="walkr-loading-a62x.png" Key="walkr-loading-a62x.png" />
+          <PlistImageFile Name="walkr-loading-a72x.png" Key="walkr-loading-a72x.png" />
+          <PlistImageFile Name="walkr-loading-a82x.png" Key="walkr-loading-a82x.png" />
+          <PlistImageFile Name="walkr-loading-a92x.png" Key="walkr-loading-a92x.png" />
+        </PlistImageFolder>
+        <Image Name="Plist.png" />
       </RootFolder>
     </Group>
   </SolutionFolder>
