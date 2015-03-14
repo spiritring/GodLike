@@ -25,6 +25,9 @@
         <PlistParticleFile Name="SpookyPeas.plist" />
         <PlistParticleFile Name="Spiral.plist" />
         <PlistParticleFile Name="particle.plist" />
+        <PlistParticleFile Name="BurstPipe.plist" />
+        <Project Name="Node1.csd" Type="Node" />
+        <Image Name="spaceship-walkr-b2x.png" />
       </RootFolder>
     </Group>
   </SolutionFolder>

@@ -77,15 +77,15 @@
         <PrePosition X="0.0000" Y="0.0000" />
         <PreSize X="0.0000" Y="0.0000" />
         <Children>
-          <NodeObjectData Name="Sprite_2" ActionTag="-693267464" FrameEvent="" Tag="9" ctype="SpriteObjectData">
-            <Position X="0.0000" Y="0.0000" />
+          <NodeObjectData Name="Sprite_2" ActionTag="-693267464" FrameEvent="" Tag="9" LeftMargin="34.2860" RightMargin="-94.2860" TopMargin="-37.8571" BottomMargin="-72.1429" ctype="SpriteObjectData">
+            <Position X="64.2860" Y="-17.1429" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <CColor A="255" R="255" G="255" B="255" />
             <Size X="60.0000" Y="110.0000" />
             <PrePosition X="0.0000" Y="0.0000" />
             <PreSize X="0.0000" Y="0.0000" />
-            <FileData Type="PlistSubImage" Path="walkr-loading-a92x.png" Plist="Plist.plist" />
+            <FileData Type="PlistSubImage" Path="walkr-loading-a02x.png" Plist="Plist.plist" />
           </NodeObjectData>
           <NodeObjectData Name="Sprite_3" ActionTag="625090127" FrameEvent="" Tag="19" LeftMargin="-105.5542" RightMargin="45.5542" TopMargin="-41.6674" BottomMargin="-68.3326" ctype="SpriteObjectData">
             <Position X="-75.5542" Y="-13.3326" />
@@ -95,7 +95,7 @@
             <Size X="60.0000" Y="110.0000" />
             <PrePosition X="0.0000" Y="0.0000" />
             <PreSize X="0.0000" Y="0.0000" />
-            <FileData Type="PlistSubImage" Path="walkr-loading-a92x.png" Plist="Plist.plist" />
+            <FileData Type="PlistSubImage" Path="walkr-loading-a02x.png" Plist="Plist.plist" />
           </NodeObjectData>
         </Children>
       </ObjectData>

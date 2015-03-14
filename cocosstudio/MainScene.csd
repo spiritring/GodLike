@@ -77,35 +77,25 @@
         <PrePosition X="0.0000" Y="0.0000" />
         <PreSize X="0.0000" Y="0.0000" />
         <Children>
-          <NodeObjectData Name="Sprite_2" ActionTag="-835709892" FrameEvent="" Tag="5" LeftMargin="378.3338" RightMargin="521.6661" TopMargin="301.6675" BottomMargin="228.3325" ctype="SpriteObjectData">
-            <Position X="406.0005" Y="282.4991" />
+          <NodeObjectData Name="Sprite_2" ActionTag="-835709892" FrameEvent="" Tag="5" LeftMargin="391.1917" RightMargin="508.8083" TopMargin="314.5223" BottomMargin="215.4777" ctype="SpriteObjectData">
+            <Position X="418.8576" Y="269.6417" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <AnchorPoint ScaleX="0.4611" ScaleY="0.4924" />
             <CColor A="255" R="255" G="255" B="255" />
             <Size X="60.0000" Y="110.0000" />
-            <PrePosition X="0.4229" Y="0.4414" />
+            <PrePosition X="0.4363" Y="0.4213" />
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="PlistSubImage" Path="walkr-loading-a02x.png" Plist="Plist.plist" />
           </NodeObjectData>
-          <NodeObjectData Name="Sprite_3" ActionTag="1333597467" FrameEvent="" Tag="6" LeftMargin="579.4983" RightMargin="320.5017" TopMargin="323.7862" BottomMargin="206.2138" ctype="SpriteObjectData">
-            <Position X="609.4983" Y="261.2138" />
+          <NodeObjectData Name="Sprite_3" ActionTag="1333597467" FrameEvent="" Tag="6" LeftMargin="555.2124" RightMargin="344.7876" TopMargin="309.5002" BottomMargin="220.4998" ctype="SpriteObjectData">
+            <Position X="585.2124" Y="275.4998" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <CColor A="255" R="255" G="255" B="255" />
             <Size X="60.0000" Y="110.0000" />
-            <PrePosition X="0.6349" Y="0.4081" />
+            <PrePosition X="0.6096" Y="0.4305" />
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="PlistSubImage" Path="walkr-loading-a02x.png" Plist="Plist.plist" />
-          </NodeObjectData>
-          <NodeObjectData Name="Particle_1" ActionTag="-1766822617" FrameEvent="" Tag="5" LeftMargin="480.0027" RightMargin="479.9973" TopMargin="113.0668" BottomMargin="526.9332" ctype="ParticleObjectData">
-            <Position X="480.0027" Y="526.9332" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <Size X="0.0000" Y="0.0000" />
-            <PrePosition X="0.5000" Y="0.8233" />
-            <PreSize X="0.0000" Y="0.0000" />
-            <FileData Type="Normal" Path="BurstPipe.plist" />
           </NodeObjectData>
         </Children>
       </ObjectData>
