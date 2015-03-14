@@ -35,7 +35,32 @@ bool HelloWorld::init()
 	auto tl = CSLoader::createTimeline("MainScene.csb");
 	tl->gotoFrameAndPlay(0, true);
 	rootNode->runAction(tl);
-	addChild(rootNode, 0, "background");
 
-    return true;
+	auto subNode = CSLoader::createNode("Node.csb");
+	auto t2 = CSLoader::createTimeline("Node.csb");
+	t2->gotoFrameAndPlay(0, true);
+	subNode->runAction(t2);
+	subNode->setPosition(200, 200);
+	addChild(subNode);
+
+	addChild(rootNode);	
+
+	scheduleUpdate();
+
+	return true;
+}
+
+void HelloWorld::update(float delta) {
+	static int timer = 0;
+	static int posX = 0;
+	if (timer++ % 50 == 0) {
+		posX++;
+		
+		auto subNode = CSLoader::createNode("Node.csb");
+		auto t2 = CSLoader::createTimeline("Node.csb");
+		t2->gotoFrameAndPlay(0, true);
+		subNode->runAction(t2);
+		subNode->setPosition(200 + posX * 30, 200);
+		addChild(subNode);
+	}
 }

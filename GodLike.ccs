@@ -17,6 +17,14 @@
           <PlistImageFile Name="walkr-loading-a92x.png" Key="walkr-loading-a92x.png" />
         </PlistImageFolder>
         <Image Name="Plist.png" />
+        <Project Name="Node.csd" Type="Node" />
+        <PlistParticleFile Name="LavaFlow.plist" />
+        <PlistParticleFile Name="BoilingFoam.plist" />
+        <PlistParticleFile Name="Upsidedown.plist" />
+        <PlistParticleFile Name="TestPremultipliedAlpha.plist" />
+        <PlistParticleFile Name="SpookyPeas.plist" />
+        <PlistParticleFile Name="Spiral.plist" />
+        <PlistParticleFile Name="particle.plist" />
       </RootFolder>
     </Group>
   </SolutionFolder>
