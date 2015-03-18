@@ -2,6 +2,7 @@
 #include "cocostudio/CocoStudio.h"
 #include "ui/CocosGUI.h"
 #include "2d/CCParticleSystemQuad.h"
+#include "TestBox2d.h"
 
 USING_NS_CC;
 
@@ -31,6 +32,9 @@ bool HelloWorld::init()
     {
         return false;
     }
+
+	m_TB = new CTestBox2d();
+	addChild(m_TB);
     
 	//auto rootNode = CSLoader::createNode("MainScene.csb");
 	//auto tl = CSLoader::createTimeline("MainScene.csb");
@@ -44,14 +48,45 @@ bool HelloWorld::init()
 	//subNode->setPosition(200, 200);
 	//addChild(subNode);
 
-	//addChild(rootNode);	
-
+	//addChild(rootNode);
+	
 	scheduleUpdate();
 
+	auto _touchListener = EventListenerTouchOneByOne::create();
+	_touchListener->setSwallowTouches(false);
+	_touchListener->onTouchBegan = CC_CALLBACK_2(HelloWorld::TouchBegan, this);
+	_touchListener->onTouchMoved = CC_CALLBACK_2(HelloWorld::TouchMoved, this);
+	_touchListener->onTouchEnded = CC_CALLBACK_2(HelloWorld::TouchEnded, this);
+	_touchListener->onTouchCancelled = CC_CALLBACK_2(HelloWorld::TouchCancelled, this);
+	_eventDispatcher->addEventListenerWithSceneGraphPriority(_touchListener, this);
 	return true;
 }
 
+bool HelloWorld::TouchBegan(Touch* touch, Event* event)
+{
+	CCLOG("ccTouchBegan\n");
+	return true;
+}
+
+void HelloWorld::TouchMoved(Touch* touch, Event* event)
+{
+	CCLOG("ccTouchMoved\n");
+}
+
+void HelloWorld::TouchEnded(Touch* touch, Event* event)
+{
+	CCLOG("ccTouchEnded\n");
+}
+
+void HelloWorld::TouchCancelled(Touch* touch, Event* event)
+{
+	CCLOG("ccTouchCancelled\n");
+}
+
 void HelloWorld::update(float delta) {
+
+	m_TB->update(delta);
+
 	static int timer = 0;
 	static int posX = 0;
 	static int dt = 1;

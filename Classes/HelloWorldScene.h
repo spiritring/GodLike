@@ -3,6 +3,8 @@
 
 #include "cocos2d.h"
 
+class CTestBox2d;
+
 class HelloWorld : public cocos2d::Layer
 {
 public:
@@ -16,6 +18,13 @@ public:
     CREATE_FUNC(HelloWorld);
 
 	void update(float delta);
+
+	bool TouchBegan(cocos2d::Touch* touch, cocos2d::Event* event);
+	void TouchMoved(cocos2d::Touch* touch, cocos2d::Event* event);
+	void TouchEnded(cocos2d::Touch* touch, cocos2d::Event* event);
+	void TouchCancelled(cocos2d::Touch* touch, cocos2d::Event* event);
+
+	CTestBox2d* m_TB = nullptr;
 };
 
 #endif // __HELLOWORLD_SCENE_H__
