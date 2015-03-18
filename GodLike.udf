@@ -1,4 +1,10 @@
 <UserData>
+  <OpenedDocuments>
+    <FilePathData Path="MainScene.csd" />
+    <FilePathData Path="Node.csd" />
+    <FilePathData Path="Node1.csd" />
+  </OpenedDocuments>
+  <ActiveDocument Path="Node1.csd" />
   <Properties>
     <Item Key="PackageParamsKey">
       <Value ctype="PackageParams">
